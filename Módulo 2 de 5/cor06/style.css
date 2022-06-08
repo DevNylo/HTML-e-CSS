@@ -1,0 +1,46 @@
+@charset "UTF-8";
+
+/* 
+
+EM ID SE USA O # E SÓ PODE ATRIBUIR UM UNICO ELEMENTO
+EM CLASS SE USA O . E PODE ATRIBUIR VÁRIOS ELEMENTOS
+
+*/
+
+
+body{
+    background-color: rgb(209, 238, 165);
+    font-family: sans-serif;
+}
+#main{
+    text-align: center;
+}
+
+h1{
+    color: green;
+}
+
+h2{
+    color: rgb(2, 45, 2);
+}
+
+p{
+    text-align: justify;
+    text-indent: 2em;
+}
+
+.basic{
+    color: rgb(26, 255, 0);
+}
+
+.inter{
+    color: rgb(19, 3, 243);
+}
+
+.avanced{
+    color: crimson;
+}
+
+.destaque{
+    background-color: chartreuse;
+}

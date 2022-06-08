@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML</title>
+    <style>
+        *{
+            text-align: center;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <h1>Imagens Dinâmicas</h1>
+    <p>Tente abrir esse site em vários dispositivos diferentes ou simplesmente aumente e diminua o tamanho do seu navegador.</p>
+    
+    <picture>
+        <!--A ordem precisa ser da menor para o maior.-->
+        <source media="(max-width: 750px)" srcset="imagens/300.png" type="image/png">
+        <source media="(max-width: 1000px )" srcset="imagens/700.png" type="image/png">
+        <img src="imagens/1000.png" alt="Foto G">
+
+    </picture>
+
+    <h1>Reprodução de Audio</h1>
+
+    <p>Reproduzindo alguns audios.</p>
+    <audio controls>
+        <source src="midia/Get Through - NEFFEX.mp3" type="audio/mpeg">
+        <source src="midia/Get Through - NEFFEX.ogg" type="audio/ogg">
+        <source src="midia/Get Through - NEFFEX.wav" type="audio/wav">
+        <p>O seu navegador não tem suporte a audio, baixe o arquivo <a href="midia/Get Through - NEFFEX.mp3">clicando aqui!</a></p>
+
+    </audio>
+    <!-- MP3 WAV OGG-->
+</body>
+</html>

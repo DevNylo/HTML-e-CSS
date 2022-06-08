@@ -1,0 +1,17 @@
+@charset "UTF-8";
+
+*{
+    background-image: url(img/espaco.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#astro{
+    width: 100%;
+    height: 100%;
+}
+
+#astro img{
+    margin-left: 30%;
+    margin-top: 5%;
+}
