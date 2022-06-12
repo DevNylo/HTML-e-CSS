@@ -7,21 +7,56 @@
 
 /* CONFIG. COM CLASS */
 
-.forma{
+.pos{
+    text-align: center;
+    padding: 10px;
+}
+
+.uf{
+    text-align: center;
+    padding: 5px;
+}
+
+.ufb{
+    padding: 5px;
+}
+
+.forma-h1{
+    text-align: center;
+    padding: 10px;
+}
+
+.forma-h2{
+    text-align: center;
+    padding: 10px;
+}
+
+
+td.forma{
     text-align: right;
+    padding: 10px 5px;
 
 }
-.upper a{
-    
-    font-weight: normal;
-    text-decoration: none;
-    font-size: 10px;
-    text-transform: uppercase;
+
+.tab{
+    padding: 10px;
+    text-align: center;
+}
+
+.cl-g{
+    text-align: center;
+    padding: 10px;
 }
 
 .cl-g > span{
     color: green;
 }
+
+.total{
+    padding: 10px;
+    text-align: center;
+}
+
 
 
 /*--------------------------------*/
@@ -35,24 +70,16 @@ body{
 
 h1{
     text-align: center ;
+    padding: 50px;
 }
 
 table{
-    
     margin: auto;
     border-collapse: collapse;
 }
 
-thead{
-    
-}
-
-
 thead > tr > td{
     line-height: 1.5em;
-    width: 100px;
-    text-align: center;
-    padding: 10px;
     border: 1px solid #a0a2a5;
     background-color: #EAECF0;
     font-weight: bold;
@@ -60,8 +87,7 @@ thead > tr > td{
 }
 
 tbody > tr > td{
-    text-align: center;
-    padding: 10px;
+    white-space: nowrap;
     border: 1px solid #a0a2a5;
     background-color: #EAECF0;
 }
